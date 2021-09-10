@@ -9,5 +9,6 @@
 
 (defn -main
   [& args]
-  (-> (page-loader test-url)
-      (html/select [:a])))
+  (println
+   (-> (page-loader test-url)
+       (html/select [:a]))))

@@ -1,0 +1,16 @@
+#+TITLE: Spatula
+
+* Description
+  Spatula is a simple web scrapper in Clojure
+
+* Instructions
+  As long as you have [[eww:https://github.com/technomancy/leiningen][leiningen]] installed, simply run:
+  #+BEGIN_SRC shell
+    lein run
+  #+END_SRC
+
+* Example
+
+  #+BEGIN_SRC clojure
+    ({:tag :a, :attrs {:href index.html}, :content (Home)} {:tag :a, :attrs {:href essays/index.html}, :content (Essays)} {:tag :a, :attrs {:href https://github.com/MMagueta}, :content (GitHub)} {:tag :a, :attrs {:href https://www.gnu.org/software/emacs/}, :content (Emacs)} {:tag :a, :attrs {:href https://orgmode.org}, :content (Org)} {:tag :a, :attrs {:href http://validator.w3.org/check?uri=referer}, :content (Validate)})
+  #+END_SRC
