@@ -1,7 +1,7 @@
 #+TITLE: Spatula
 
 * Description
-  Spatula is a simple web scrapper in Clojure
+  Spatula is a web scrapper in Clojure using logic programming provided by core.logic
 
 * Instructions
   As long as you have [[eww:https://github.com/technomancy/leiningen][leiningen]] installed, simply run:
